@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the paper."
+title: "bioenergetic-causality: Mitochondrial complex I dysfunction in idiopathic autism: convergence to a single chronic attractor and causal resolution by dynamic perturbation"
+abstract: >-
+  Reference implementation of a bidirectionally coupled model of neuronal
+  excitability and mitochondrial bioenergetics, with the phenotype-matching,
+  inverse-problem, dynamic-discriminator (Table 4), and Sobol sensitivity
+  (Table 5) analyses reported in the accompanying Mitochondrion submission
+  package (manuscript, Title_Page_Mitochondrion.*, Highlights_Mitochondrion.*,
+  and Cover_Letter_Mitochondrion.*).
+authors:
+  - family-names: "González-Paz"
+    given-names: "L."
+    email: "lgonzalezpaz@gmail.com"
+    orcid: "https://orcid.org/[ORCID]"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/[GITHUB_USER]/bioenergetic-causality"
+doi: "10.5281/zenodo.[ZENODO_ID]"
+date-released: "2026-11-17"
+keywords:
+  - autism spectrum disorder
+  - mitochondrial bioenergetics
+  - respiratory complex I
+  - causal identifiability
+  - excitation-inhibition balance
+  - reactive oxygen species
+  - dynamical perturbation
+preferred-citation:
+  type: article
+  title: "Mitochondrial complex I dysfunction in idiopathic autism: convergence to a single chronic attractor and causal resolution by dynamic perturbation"
+  authors:
+    - family-names: "González-Paz"
+      given-names: "L."
+      email: "lgonzalezpaz@gmail.com"
+      orcid: "https://orcid.org/[ORCID]"
+  journal: "Mitochondrion"
+  year: 2026

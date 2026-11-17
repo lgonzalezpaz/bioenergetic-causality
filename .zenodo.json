@@ -1,0 +1,22 @@
+{
+  "title": "bioenergetic-causality: Mitochondrial complex I dysfunction in idiopathic autism: convergence to a single chronic attractor and causal resolution by dynamic perturbation",
+  "description": "Reference implementation and Mitochondrion editorial submission package (including Cover_Letter_Mitochondrion.*, Highlights_Mitochondrion.*, Title_Page_Mitochondrion.*, Table 4 dynamic discriminators, and Table 5 Sobol sensitivity indices) for resolving bioenergetic causality in idiopathic autism.",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {"name": "González-Paz, L.", "affiliation": "[AFFILIATION: department, institution, city, country]", "orcid": "[ORCID]"}
+  ],
+  "keywords": [
+    "autism spectrum disorder",
+    "mitochondrial bioenergetics",
+    "respiratory complex I",
+    "causal identifiability",
+    "excitation-inhibition balance",
+    "reactive oxygen species",
+    "dynamical perturbation",
+    "reproducible research"
+  ],
+  "related_identifiers": [
+    {"relation": "isSupplementTo", "identifier": "[PAPER_DOI]", "scheme": "doi"}
+  ]
+}
