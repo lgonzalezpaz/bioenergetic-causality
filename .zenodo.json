@@ -1,10 +1,42 @@
 {
-  "title": "bioenergetic-causality: Mitochondrial complex I dysfunction in idiopathic autism: convergence to a single chronic attractor and causal resolution by dynamic perturbation",
-  "description": "Reference implementation and Mitochondrion editorial submission package (including Cover_Letter_Mitochondrion.*, Highlights_Mitochondrion.*, Title_Page_Mitochondrion.*, Table 4 dynamic discriminators, and Table 5 Sobol sensitivity indices) for resolving bioenergetic causality in idiopathic autism.",
+  "title": "Mitochondrial complex I dysfunction in idiopathic autism: convergence to a single chronic attractor and causal resolution by dynamic perturbation",
+  "description": "Reference implementation and reproducible computational pipeline (source code, closed-form calibration, continuation, cohort inverse problem, phenotype matching, dynamic discriminators, directed information flow, Monte Carlo classification, Sobol sensitivity analysis, and LaTeX equations) for resolving bioenergetic causality in idiopathic autism.",
   "upload_type": "software",
+  "access_right": "open",
   "license": "MIT",
   "creators": [
-    {"name": "González-Paz, L.", "affiliation": "[AFFILIATION: department, institution, city, country]", "orcid": "[ORCID]"}
+    {
+      "name": "Alvarado, Ysaías J.",
+      "affiliation": "Instituto Venezolano de Investigaciones Científicas (IVIC), Centro de Biomedicina Molecular (CBM), 4001 Maracaibo, Venezuela"
+    },
+    {
+      "name": "Quintero, Máximo",
+      "affiliation": "Servicio Autónomo Hospital Universitario de Maracaibo (SAHUM), Servicio de Neurología, 4001 Maracaibo, Zulia, Venezuela; Universidad del Zulia, Facultad de Medicina, 4001 Maracaibo, Zulia, Venezuela"
+    },
+    {
+      "name": "Cardozo-Urdaneta, Arlene",
+      "affiliation": "Instituto Venezolano de Investigaciones Científicas (IVIC), Centro de Biomedicina Molecular (CBM), 4001 Maracaibo, Venezuela"
+    },
+    {
+      "name": "Lossada, Carla",
+      "affiliation": "Instituto Venezolano de Investigaciones Científicas (IVIC), Centro de Biomedicina Molecular (CBM), 4001 Maracaibo, Venezuela"
+    },
+    {
+      "name": "Marrero-Ponce, Yovani",
+      "affiliation": "Universidad Panamericana, Facultad de Ingeniería, Augusto Rodin 498, Ciudad de México 03920, México; Universidad San Francisco de Quito, Grupo de Medicina Molecular y Traslacional (MeM&T), Colegio de Ciencias de la Salud (COCSA), Quito 170157, Ecuador"
+    },
+    {
+      "name": "Martinez-Rios, Félix",
+      "affiliation": "Universidad Panamericana, Facultad de Ingeniería, Augusto Rodin 498, Ciudad de México 03920, México"
+    },
+    {
+      "name": "Delgado, Ariana",
+      "affiliation": "Instituto Venezolano de Investigaciones Científicas (IVIC), Centro de Biomedicina Molecular (CBM), 4001 Maracaibo, Venezuela"
+    },
+    {
+      "name": "González-Paz, Lenin",
+      "affiliation": "Instituto Venezolano de Investigaciones Científicas (IVIC), Centro de Biomedicina Molecular (CBM), 4001 Maracaibo, Venezuela"
+    }
   ],
   "keywords": [
     "autism spectrum disorder",
@@ -16,7 +48,12 @@
     "dynamical perturbation",
     "reproducible research"
   ],
+  "version": "v1.0.0",
   "related_identifiers": [
-    {"relation": "isSupplementTo", "identifier": "[PAPER_DOI]", "scheme": "doi"}
+    {
+      "identifier": "https://github.com/lgonzalezpaz/bioenergetic-causality",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
   ]
 }

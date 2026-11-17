@@ -49,7 +49,6 @@ The analysis then asks what, if anything, still distinguishes them:
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt          # or: conda env create -f environment.yml
 python src/run_all.py                    # ~6 min, one CPU core
-python src/build_manuscript.py           # regenerates manuscript.docx from results
 ```
 
 `--quick` runs a reduced-size version (~1 min) for smoke-testing.
@@ -59,27 +58,22 @@ in the driver, so output is bitwise reproducible in an identical environment.
 ## Layout
 
 ```
-src/model.py                                  model definition, closed-form calibration, lesion injection
-src/analysis.py                               continuation, inverse problem, matching, discriminators, transfer entropy
-src/run_all.py                                single driver: every figure, table and number
-src/redo_figures.py                           regenerates all 5 vector PDF and 400-dpi PNG figures
-src/redo_mc_sobol.py                          recomputes the Monte-Carlo and sensitivity steps alone
-src/build_manuscript.py                       builds manuscript.docx and equations.tex from results.json
-results/results.json                          complete numerical output
-results/table1_parameters.csv                 Table 1: model parameters, units, and provenance
-results/table2_control_state.csv              Table 2: control steady state vs. literature targets
-results/table3_validation.csv                 Table 3: published human validation set vs. mode fits
-results/table4_discriminators.csv             Table 4: dynamic discriminators at matched points
-results/table5_sobol.csv                      Table 5: Sobol sensitivity indices (±30% ranges)
-figures/figure1..5.{pdf,png}                  vector PDF and 400-dpi PNG
-manuscript/manuscript.docx                    main manuscript (with native OMML equations, tables, figures)
-manuscript/equations.tex                      all 25 equations in editable LaTeX
-manuscript/Cover_Letter_Mitochondrion.{md,docx}  Mitochondrion submission cover letter
-manuscript/Highlights_Mitochondrion.{md,docx}    Mitochondrion highlights (< 80 chars each)
-manuscript/Title_Page_Mitochondrion.{md,docx}    Mitochondrion title page, abstract, keywords & declarations
+src/model.py                       model definition, closed-form calibration, lesion injection
+src/analysis.py                    continuation, inverse problem, matching, discriminators, transfer entropy
+src/run_all.py                     single driver: every figure, table and number
+src/redo_figures.py                regenerates all 5 vector PDF and 400-dpi PNG figures
+src/redo_mc_sobol.py               recomputes the Monte-Carlo and sensitivity steps alone
+results/results.json               complete numerical output
+results/table1_parameters.csv      Table 1: model parameters, units, and provenance
+results/table2_control_state.csv   Table 2: control steady state vs. literature targets
+results/table3_validation.csv      Table 3: published human validation set vs. mode fits
+results/table4_discriminators.csv  Table 4: dynamic discriminators at matched points
+results/table5_sobol.csv           Table 5: Sobol sensitivity indices (±30% ranges)
+figures/figure1..5.{pdf,png}       vector PDF and 400-dpi PNG
+equations/equations.tex            all 25 model and discriminator equations in LaTeX
 ```
 
-Note on manuscript tables: **Table 4** presents the dynamic discriminators at the phenotype-matched operating points (`results/table4_discriminators.csv`), and **Table 5** presents the Sobol variance-based sensitivity indices (`results/table5_sobol.csv`).
+Note on tables: **Table 4** presents the dynamic discriminators at the phenotype-matched operating points (`results/table4_discriminators.csv`), and **Table 5** presents the Sobol variance-based sensitivity indices (`results/table5_sobol.csv`).
 
 ## Human data
 

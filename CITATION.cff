@@ -1,22 +1,43 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite both the software and the paper."
-title: "bioenergetic-causality: Mitochondrial complex I dysfunction in idiopathic autism: convergence to a single chronic attractor and causal resolution by dynamic perturbation"
+message: "If you use this software or computational framework, please cite both the software and the paper."
+title: "Mitochondrial complex I dysfunction in idiopathic autism: convergence to a single chronic attractor and causal resolution by dynamic perturbation"
+type: software
 abstract: >-
-  Reference implementation of a bidirectionally coupled model of neuronal
-  excitability and mitochondrial bioenergetics, with the phenotype-matching,
-  inverse-problem, dynamic-discriminator (Table 4), and Sobol sensitivity
-  (Table 5) analyses reported in the accompanying Mitochondrion submission
-  package (manuscript, Title_Page_Mitochondrion.*, Highlights_Mitochondrion.*,
-  and Cover_Letter_Mitochondrion.*).
+  Reference implementation of a bidirectionally coupled biophysical model of
+  neuronal excitability and mitochondrial bioenergetics, including the
+  phenotype-matching, inverse-problem, dynamic-discriminator (Table 4), and
+  Sobol sensitivity (Table 5) analyses and LaTeX model equations
+  (equations/equations.tex).
 authors:
+  - family-names: "Alvarado"
+    given-names: "Ysaías J."
+    affiliation: "Instituto Venezolano de Investigaciones Científicas (IVIC), Centro de Biomedicina Molecular (CBM)"
+  - family-names: "Quintero"
+    given-names: "Máximo"
+    affiliation: "Servicio Autónomo Hospital Universitario de Maracaibo (SAHUM); Universidad del Zulia"
+  - family-names: "Cardozo-Urdaneta"
+    given-names: "Arlene"
+    affiliation: "Instituto Venezolano de Investigaciones Científicas (IVIC), Centro de Biomedicina Molecular (CBM)"
+  - family-names: "Lossada"
+    given-names: "Carla"
+    affiliation: "Instituto Venezolano de Investigaciones Científicas (IVIC), Centro de Biomedicina Molecular (CBM)"
+  - family-names: "Marrero-Ponce"
+    given-names: "Yovani"
+    affiliation: "Universidad Panamericana; Universidad San Francisco de Quito"
+  - family-names: "Martinez-Rios"
+    given-names: "Félix"
+    affiliation: "Universidad Panamericana"
+  - family-names: "Delgado"
+    given-names: "Ariana"
+    affiliation: "Instituto Venezolano de Investigaciones Científicas (IVIC), Centro de Biomedicina Molecular (CBM)"
   - family-names: "González-Paz"
-    given-names: "L."
+    given-names: "Lenin"
     email: "lgonzalezpaz@gmail.com"
-    orcid: "https://orcid.org/[ORCID]"
-version: 1.0.0
+    affiliation: "Instituto Venezolano de Investigaciones Científicas (IVIC), Centro de Biomedicina Molecular (CBM)"
+version: "1.0.0"
 license: MIT
-repository-code: "https://github.com/[GITHUB_USER]/bioenergetic-causality"
-doi: "10.5281/zenodo.[ZENODO_ID]"
+repository-code: "https://github.com/lgonzalezpaz/bioenergetic-causality"
+url: "https://github.com/lgonzalezpaz/bioenergetic-causality"
 date-released: "2026-11-17"
 keywords:
   - autism spectrum disorder
@@ -30,9 +51,22 @@ preferred-citation:
   type: article
   title: "Mitochondrial complex I dysfunction in idiopathic autism: convergence to a single chronic attractor and causal resolution by dynamic perturbation"
   authors:
+    - family-names: "Alvarado"
+      given-names: "Ysaías J."
+    - family-names: "Quintero"
+      given-names: "Máximo"
+    - family-names: "Cardozo-Urdaneta"
+      given-names: "Arlene"
+    - family-names: "Lossada"
+      given-names: "Carla"
+    - family-names: "Marrero-Ponce"
+      given-names: "Yovani"
+    - family-names: "Martinez-Rios"
+      given-names: "Félix"
+    - family-names: "Delgado"
+      given-names: "Ariana"
     - family-names: "González-Paz"
-      given-names: "L."
-      email: "lgonzalezpaz@gmail.com"
-      orcid: "https://orcid.org/[ORCID]"
+      given-names: "Lenin"
   journal: "Mitochondrion"
   year: 2026
+  url: "https://github.com/lgonzalezpaz/bioenergetic-causality"
